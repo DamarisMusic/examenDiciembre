@@ -5,23 +5,23 @@ let botonBlanco = document.querySelector('#Blanco')
 let botonRojo = document.querySelector('#Rojo')
 let imagen = document.querySelector('#fotoCronos')
 
-
+let parrafo = document.querySelector('#nombreColor')
 
 botonNegro.onclick = function(){
     botonNegro.textContent.color = 'black'
-    botonNegro.innerText = 'Negro'
+    parrafo.innerText = 'NEGRO BULCANO'
     imagen.src = 'cronosNegro.png'
 }
 
 botonBlanco.onclick = function(){
     botonBlanco.textContent.color = 'white'
-    botonBlanco.innerText = 'Blanco'
+    parrafo.innerText = 'BLANCO AKASKAN'
     imagen.src = 'cronosBlanco.png'
 }
 
 botonRojo.onclick = function(){
     botonRojo.textContent.color = 'red'
-    botonRojo.innerText = 'Rojo'
+    parrafo.innerText = 'ROJO MONTECARLO'
     imagen.src = 'cronosRojo.png'
 }
 
