@@ -22,7 +22,7 @@ botonBlanco.onclick = function(){
 botonRojo.onclick = function(){
     botonRojo.textContent.color = 'red'
     botonRojo.innerText = 'Rojo'
-    botonRojo.src = 'cronosRojo.png'
+    imagen.src = 'cronosRojo.png'
 }
 
 
