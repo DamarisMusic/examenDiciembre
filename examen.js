@@ -6,19 +6,19 @@ let botonRojo = document.querySelector('#Rojo')
 
 
 botonNegro.onclick = function(){
-    botonNegro.textContent.color = 'Black'
+    botonNegro.textContent.color = 'black'
     botonNegro.innerText = 'Negro'
     botonNegro.src = 'cronosNegro.png'
 }
 
 botonBlanco.onclick = function(){
-    botonBlanco.textContent.color = 'White'
+    botonBlanco.textContent.color = 'white'
     botonBlanco.innerText = 'Blanco'
     botonBlanco.src = 'cronosBlanco.png'
 }
 
 botonRojo.onclick = function(){
-    botonRojo.textContent.color = 'Red'
+    botonRojo.textContent.color = 'red'
     botonRojo.innerText = 'Rojo'
     botonRojo.src = 'cronosRojo.png'
 }
@@ -31,7 +31,7 @@ botonInfo.onclick = function(){
     if(edad >= 18)
     return correo
     alert('Nos pondremos en contacto a la brevedad.')
-} else{
+   }else{
     return alert('Lo siento, eres menor. No puedes solicitar informacion')
 }
 
