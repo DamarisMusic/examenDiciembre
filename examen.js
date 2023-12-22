@@ -3,18 +3,20 @@ let botonNegro = document.querySelector('#Negro')
 let botonBlanco = document.querySelector('#Blanco')
 
 let botonRojo = document.querySelector('#Rojo')
+let imagen = document.querySelector('#fotoCronos')
+
 
 
 botonNegro.onclick = function(){
     botonNegro.textContent.color = 'black'
     botonNegro.innerText = 'Negro'
-    botonNegro.src = 'cronosNegro.png'
+    imagen.src = 'cronosNegro.png'
 }
 
 botonBlanco.onclick = function(){
     botonBlanco.textContent.color = 'white'
     botonBlanco.innerText = 'Blanco'
-    botonBlanco.src = 'cronosBlanco.png'
+    imagen.src = 'cronosBlanco.png'
 }
 
 botonRojo.onclick = function(){
@@ -24,14 +26,16 @@ botonRojo.onclick = function(){
 }
 
 
-let correo = prompt('Ingresa tu correo')
-let edad = Number(prompt('Ingresa tu edad'))
+let correo
+let edad
 let botonInfo = document.querySelector('#info')
 botonInfo.onclick = function(){
-    if(edad >= 18)
-    return correo
+    edad = Number(prompt('Ingresa tu edad'))
+    if(edad >= 18){
+        correo = prompt('Ingresa tu correo')
     alert('Nos pondremos en contacto a la brevedad.')
    }else{
     return alert('Lo siento, eres menor. No puedes solicitar informacion')
 }
 
+}
