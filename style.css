@@ -1,16 +1,32 @@
-.botonAuto{
+
+
+#Negro{
     height: 40px;
     width: 40px;
     border-radius: 50%;
     border: 1px solid black;
 }
 
-botones{
+#Blanco{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+#Rojo{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.botones{
     display: flex;
     justify-content: space-evenly;
 }
 
-venta{
+#info{
     display: flex;
     justify-content: space-evenly;
     padding: 5%;
